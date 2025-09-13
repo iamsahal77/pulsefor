@@ -23,12 +23,12 @@ body {
     transform: translate(-50%, -140%);
     z-index: 49;
     display: flex;
-    padding: 12px 24px;
+    padding: 17px 24px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #f2f1dc;
     border-radius: 18px;
-    background-color: #ffffff56;
+    background-color: white;
     backdrop-filter: blur(9px);
     animation: slideDown 0.4s ease-out 0.86s forwards;
 }
@@ -188,7 +188,7 @@ body {
     }
 
     #hero {
-        margin-top: 7.8rem;
+        margin-top: 9.8rem;
     }
 
     .launching-text {
@@ -200,7 +200,7 @@ body {
 
 @media (max-width: 1034px) {
     #hero {
-        margin-top: 9rem;
+        margin-top: 12rem;
     }
 
     .launching-text {
@@ -212,7 +212,7 @@ body {
 
 @media (max-width: 768px) {
     #header {
-        padding: 10px 20px;
+        padding: 16px 20px;
     }
 
     .wrapper {
@@ -231,7 +231,7 @@ body {
     }
 
     #hero {
-        margin-top: 10rem;
+        margin-top: 9rem;
     }
 
     .hero-content {
@@ -247,7 +247,7 @@ body {
 
 @media (max-width: 540px) {
     #header {
-        padding: 10px 20px;
+        padding: 15px 20px;
     }
 
     .left-logo {
@@ -261,7 +261,7 @@ body {
     }
 
     #hero {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 
     .hero-container {
@@ -279,7 +279,7 @@ body {
 
 @media (max-width: 480px) {
     #header {
-        padding: 8px 16px;
+        padding: 14px 16px;
     }
 
     .left-logo {
@@ -293,7 +293,7 @@ body {
     }
 
     #hero {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 
     .hero-container {
