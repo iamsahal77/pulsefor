@@ -128,7 +128,7 @@ body {
     gap: 8px;
     background: #111;
     color: white;
-    padding: 6px 12px 6px 8px;
+    padding: 4.5px 12px 5px 8px;
     border-radius: 30px;
     font-size: 14px;
 }
@@ -188,7 +188,6 @@ body {
     }
 
     #hero {
-        padding: 110px;
         margin-top: 7.8rem;
     }
 
@@ -201,7 +200,6 @@ body {
 
 @media (max-width: 1034px) {
     #hero {
-        padding: 80px;
         margin-top: 9rem;
     }
 
@@ -234,7 +232,6 @@ body {
 
     #hero {
         margin-top: 10rem;
-        padding: 50px;
     }
 
     .hero-content {
@@ -265,7 +262,6 @@ body {
 
     #hero {
         margin-top: 10rem;
-        padding: 32px;
     }
 
     .hero-container {
@@ -298,7 +294,6 @@ body {
 
     #hero {
         margin-top: 10rem;
-        padding: 32px;
     }
 
     .hero-container {
