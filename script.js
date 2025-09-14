@@ -10,9 +10,9 @@ function createDots() {
     for (let i = 0; i < 60; i++) {
         dots.push({
             x: Math.random() * canvas.width * 1.2 - canvas.width * 0.1,
-            y: canvas.height + Math.random() * canvas.height,
+           y: Math.random() * canvas.height, 
             radius: Math.random() * 0.5 + 0.54, 
-            speed: (Math.random() * 0.7 + 0.6) * 0.2, 
+            speed: (Math.random() * 0.7 + 0.6) * 0.5, 
             color:
                 Math.random() < 0.9
                     ? "rgba(0, 0, 0, 1)"
