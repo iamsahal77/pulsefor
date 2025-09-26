@@ -5,14 +5,14 @@
 }
 
 body {
-    font-family:"Inter", "Poppins", sans-serif;
+    font-family: "Inter", "Poppins", sans-serif;
     background-color: #fff;
     overflow: hidden;
     color: #000;
     background-image: url("images/lines.svg");
-  background-repeat: no-repeat;
- background-position: calc(100% - -410px) center; 
-  background-size: 1064px;    
+    background-repeat: no-repeat;
+    background-position: calc(100% - -410px) center;
+    background-size: 1064px;
 }
 
 #header {
@@ -33,10 +33,25 @@ body {
     animation: slideDown 0.4s ease-out 0.86s forwards;
 }
 
+.header-right a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header-right a span {
+    font-size: 12.5px;
+    color: #000;
+    font-weight: 300;
+    font-family: Inter, sans-serif;
+}
+
 @keyframes slideDown {
     0% {
         transform: translate(-50%, -100%);
     }
+
     100% {
         transform: translate(-50%, 0);
     }
@@ -52,28 +67,29 @@ body {
 }
 
 .glow {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #ebe718;
-  filter: blur(110px);
-  z-index: 0; /* keep it behind content */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ebe718;
+    filter: blur(110px);
+    z-index: 0;
+    /* keep it behind content */
 }
 
 .glow-1 {
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
 }
 
 .glow-2 {
-  bottom: 0;
-  left: 25%;
+    bottom: 0;
+    left: 25%;
 }
 
 .glow-3 {
-  top: 30%;
-  right: 5%;
+    top: 30%;
+    right: 5%;
 }
 
 
@@ -93,6 +109,7 @@ body {
     0% {
         transform: scale(0.94);
     }
+
     100% {
         transform: scale(1);
     }
@@ -120,41 +137,43 @@ body {
 }
 
 .badge {
-      font-family: "Montserrat","Inter", sans-serif;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #111;
-      color: white;
-      padding: 6px 12px 6px 8px;
-      border-radius: 30px;
-      font-size: 14px;
-    }
+    font-family: "Montserrat", "Inter", sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #111;
+    color: white;
+    padding: 6px 12px 6px 8px;
+    border-radius: 30px;
+    font-size: 14px;
+}
 
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: yellow;
-      position: relative;
-      animation: pulse 2s infinite;
-    }
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: yellow;
+    position: relative;
+    animation: pulse 2s infinite;
+}
 
-    @keyframes pulse {
-      0% {
+@keyframes pulse {
+    0% {
         box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.6);
-      }
-      70% {
-        box-shadow: 0 0 0 10px rgba(255, 255, 0, 0);
-      }
-      100% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0);
-      }
     }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0);
+    }
+}
 
 .hero-content {
     text-align: center;
-    font-family: "Montserrat","Inter", sans-serif;
+    font-family: "Montserrat", "Inter", sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 19.2px;
@@ -186,6 +205,7 @@ body {
     #hero {
         margin-top: 9.8rem;
     }
+
     .launching-text {
         font-size: 88px;
         max-width: 1400px;
@@ -209,18 +229,35 @@ body {
     #header {
         padding: 16px 20px;
     }
+
+    .header-right a {
+        gap: 10px;
+    }
+
+    .header-right a span {
+        font-size: 11px;
+    }
+
+    .header-right a img {
+        width: 35px;
+        height: 35px;
+    }
+
     .wrapper {
         width: 90%;
         margin: 0 auto;
     }
+
     .left-logo {
         width: 86px;
         height: 30px;
     }
+
     .right-logo {
         width: 106px;
         height: 32px;
     }
+
     #hero {
         margin-top: 9rem;
     }
@@ -230,6 +267,7 @@ body {
         max-width: 432px;
         font-weight: 400;
     }
+
     .launching-text {
         font-size: 56px;
     }
@@ -239,14 +277,30 @@ body {
     #header {
         padding: 15px 20px;
     }
+
+    .header-right a {
+        gap: 10px;
+    }
+
+    .header-right a span {
+        font-size: 11px;
+    }
+
+    .header-right a img {
+        width: 32px;
+        height: 35px;
+    }
+
     .left-logo {
         width: 80px;
         height: 30px;
     }
+
     .right-logo {
         width: 100px;
         height: 32px;
     }
+
     #hero {
         margin-top: 8rem;
     }
@@ -258,6 +312,7 @@ body {
     .hero-content {
         font-size: 16px;
     }
+
     .launching-text {
         font-size: 33px;
     }
@@ -267,14 +322,30 @@ body {
     #header {
         padding: 14px 16px;
     }
+
+    .header-right a {
+        gap: 8px;
+    }
+
+    .header-right a span {
+        font-size: 9px;
+    }
+
+    .header-right a img {
+        width: 30px;
+        height: 30px;
+    }
+
     .left-logo {
         width: 80px;
         height: 30px;
     }
+
     .right-logo {
         width: 100px;
         height: 32px;
     }
+
     #hero {
         margin-top: 8rem;
     }
@@ -286,6 +357,7 @@ body {
     .hero-content {
         font-size: 14px;
     }
+
     .launching-text {
         font-size: 30px;
         margin-top: -18px;
